@@ -1,0 +1,43 @@
+.character-blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: #2b2b2d;
+    border: 4px solid #033124;
+}
+.character-blocks-title {
+    font-size: 44px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.character-block {
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    margin-bottom: 30px;
+    background-color: #4f4f4f;
+}
+.character-img {
+    width: 40%;
+    border-radius: 10px 0 0 10px;
+}
+.character-info {
+    margin-left: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.character-name {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.character-status, .character-species, .character-gender {
+    font-size: 24px;
+    color: #c2c0c0;
+    margin-bottom: 10px;
+}
