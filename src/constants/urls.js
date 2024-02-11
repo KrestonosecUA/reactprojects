@@ -9,7 +9,7 @@ const urls = {
         byId:(id) => `${users}/${id}`
     },
     posts:{
-        base:users,
+        base:posts,
         byId:(id) => `${posts}/${id}`
     }
 }

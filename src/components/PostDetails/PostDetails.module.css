@@ -1,0 +1,14 @@
+.postDetailsBlock {
+    position: fixed;
+    width: 500px;
+}
+.postNumber, .postText {
+    font-size: 22px;
+    color: #4f4f4f;
+    margin-bottom: 15px;
+}
+.postTitle {
+    font-size: 28px;
+    color: #520c0c;
+    margin-bottom: 15px;
+}
