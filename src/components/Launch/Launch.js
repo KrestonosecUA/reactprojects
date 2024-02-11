@@ -9,8 +9,7 @@ const Launch = ({launch}) => {
         <div className={style.launchBlock}>
             <h2 className={style.launchTitle}>{mission_name}</h2>
             <p className={style.launchYear}>Year: {launch_year}</p>
-            {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
-            <img src={mission_patch_small} alt="image"/>
+            <img src={mission_patch_small} alt="cosmos-boat"/>
             
         </div>
     );

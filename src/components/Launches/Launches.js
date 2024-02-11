@@ -10,12 +10,12 @@ const Launches = () => {
     useEffect(() => {
         launchService.getAll().then(({data}) => {
 
-            // eslint-disable-next-line array-callback-return
-            let filterArr = data.filter(function (item) {
-                if (item.launch_year !== '2020') {
-                    return true
-                }
-            })
+            //let filterArr = data.filter(function (item) {
+            //    if (item.launch_year !== '2020') {
+            //        return true
+            //    }
+            //})
+            const filterArr = data.filter(item => item.launch_year !== '2020');
 
             setLaunches(filterArr)
         })
