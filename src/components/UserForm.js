@@ -8,6 +8,7 @@ const UserForm = ({setUsers}) => {
 
     const save = (item) => {
         userService.create(item).then(({data}) => setUsers(prev => [...prev, data]))
+
     }
 
     return (
@@ -22,3 +23,4 @@ const UserForm = ({setUsers}) => {
 };
 
 export default UserForm;
+
