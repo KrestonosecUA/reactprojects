@@ -5,7 +5,7 @@ import {commentService} from "./services/commentService";
 
 const App = () => {
 
-    const [comments, setComments] = useState();
+    const [comments, setComments] = useState([]);
 
     useEffect(() => {
         commentService.getAll().then(({data}) => setComments(data))
@@ -13,7 +13,7 @@ const App = () => {
 
     return (
         <div>
-            <CommentForm/>
+            <CommentForm setComments={setComments}/>
             <hr/>
             <Comments comments={comments}/>
         </div>
